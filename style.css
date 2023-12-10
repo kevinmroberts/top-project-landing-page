@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+uo {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .hero-secondary-text, .hero-button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+    padding-bottom: 8px;
+}
+
+.section-one {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 16px;
+    width: 150px;
+    height: 50px;
+}
+
+.section-two {
+    display: flex;
+}
