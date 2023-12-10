@@ -22,7 +22,7 @@ WIP
 ## Installation
 1. Clone the repository.
     ```bash
-    git clone https://github.com/kevinmroberts/landing-page-project.git
+    git clone https://github.com/kevinmroberts/top-project-landing-page.git
     ```
 2. Open the project in your favorite code editor.
 
