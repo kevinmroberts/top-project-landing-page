@@ -1,4 +1,4 @@
-# Landing Page Project
+# TOP Landing Page Project
 
 Welcome to the my TOP Landing Page project! This project is designed to create an engaging and responsive landing page using the HTML and CSS fundamentals I've learned so far in the course.
 
