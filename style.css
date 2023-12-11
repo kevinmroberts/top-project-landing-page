@@ -13,7 +13,7 @@ body {
 
 }
 
-.logo {
+.logo, .cta-header{
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -31,7 +31,7 @@ a {
     text-decoration: none;
 }
 
-a, .hero-secondary-text, .hero-button {
+a, .hero-secondary-text, .hero-button, .cta-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -44,12 +44,11 @@ a, .hero-secondary-text, .hero-button {
 }
 
 .section-one {
-    flex: 1;
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;
-    gap: 16px;
+    padding: 100px;
 }
 
 .hero-body {
@@ -57,14 +56,86 @@ a, .hero-secondary-text, .hero-button {
     flex-direction: column;
 }
 
-.hero-button {
+.hero-button, .cta-button {
     background-color: #3882f6;
     border-radius: 8px;
-    margin: 16px;
     width: 150px;
     height: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .section-two {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.info-header-text, .quote-author {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.quote {
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px;
+    border-radius: 8px;
+    margin: 32px;
+    gap: 100px;
+}
+
+.cta-button {
+    color:#E5E7EB;
+    border-color: #E5E7EB;
+    border-width: 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px;
+    color:#E5E7EB;
+}
+
+.cta-header {
+    font-weight: bold;
 }
